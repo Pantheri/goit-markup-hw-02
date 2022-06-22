@@ -1,0 +1,239 @@
+:root{
+    --primary-color:#212121;
+    --secondary-color:#757575;
+    --accent-color:#2196F3;
+    --common-white:#FFFFFF;
+    --added-white:#ECECEC;
+    --footer-color:#2F303A;
+    --main-font: 'Roboto', sans-serif;
+    --header-size: 36px ;
+    --logo-size:26px;
+    --text-size: 14px;
+
+}
+/* .body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+} */
+.header{
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    height: 80px;
+    line-height: 25px;
+    font-family: var(--main-font);
+    align-items: center;
+    padding: 25px 215px; 
+}
+.navigation{
+    /* float: left; */
+    display: flex;
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: var(--logo-size);
+    text-decoration: none;
+    
+}
+.logo-accent{
+    color: var(--accent-color);
+}
+.navigation-link {
+    color: var(--secondary-color);
+    font-size: var(--text-size);
+    text-decoration: none;
+}
+.navigation-link:hover,
+.navigation-link:focus{
+    font-size: var(--accent-color);
+
+}
+
+.navigation-list{
+    list-style-type: none;
+    
+}
+
+.navigation-item{
+    display: inline;
+
+}
+.navigation-adres{
+    display: inline;
+}
+
+.order{
+    background-color: var(--footer-color);
+    height: 600px ;
+    width: 100%;
+}
+.hero-title{
+    font-style: var(--main-font);
+    color: var(--common-white);
+    font-size: 44px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    font-weight: 900;
+
+}
+.hero-btn{
+    color: var(--common-white);
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 4px;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.opis{
+    display: flex;
+    margin: 0 215px;
+}
+.opis-box{
+    width: 270px;
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--secondary-color);
+    
+}
+ .opis-title{
+    font-size: var(--text-size);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary-color);
+ }
+ .opis-text{
+    font-size: var(--text-size);
+ }
+
+.what{
+    width: 1170px;
+    
+}
+.what-title{
+    font-size: var(--header-size);
+    color: var(--primary-color);
+    text-align: center;
+    
+}
+.what-box{
+    display: flex;
+    margin: 0 215px;
+}
+.what-list{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+.command{
+    
+    font-size: 16px;
+    width: 1600px;
+}
+.command-person{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.command-person-list{
+    text-decoration: none;
+    list-style-type: none;
+}
+.fio{
+
+    font-weight: 700;
+}
+.job{
+    font-weight: 400;
+}
+
+.footer{
+    height: 252px;
+    width: 1600px;
+    background-color: var(--footer-color);
+    padding: 60px 215px;
+}
+.footer-logo{
+    color: var(--common-white);
+}
+.footer-adres {
+    display: inline;
+    list-style-type: none;
+}
+.footer-text{
+    color: var(--common-white);
+    font-style: normal;
+}
+
+.portfolio{
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.portfolio-menu{
+    list-style-type: none;
+    display: flex;
+}
+.portfolio-item{
+text-decoration: none;
+}
+.portfolio-link{
+    background-color: var(--added-white);
+    color: var(--common-white);
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
+    background-color: var(--accent-color);
+
+}
+.primer{
+    display: flex;
+    align-items: center;
+}
+.primer-box{
+
+    list-style-type: none;
+
+}
+.primer-item{
+    text-decoration: none;
+}
+.primer-img{
+
+}
+.primer-title{
+    font-weight: 700;
+}
+ .primer-text{
+    font-weight: 400;
+ }
