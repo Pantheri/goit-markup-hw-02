@@ -11,29 +11,40 @@
     --text-size: 14px;
 
 }
-/* .body{
-    font-family: 'Raleway', sans-serif;
+body{
     font-family: 'Roboto', sans-serif;
-} */
+
+} 
+address{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 .header{
-    width: 1600px;
-    margin: 0 auto;
+    width: 1170px;
+    margin: 0 ;
     display: flex;
     height: 80px;
-    line-height: 25px;
+    /* line-height: 25px; */
     font-family: var(--main-font);
     align-items: center;
-    padding: 25px 215px; 
+    padding: 0 215px; 
+
+
 }
 .navigation{
     /* float: left; */
     display: flex;
+    /* margin-left: auto; */
 }
 .logo{
     font-family: 'Raleway', sans-serif;
     font-size: var(--logo-size);
     text-decoration: none;
-    
+    line-height: 31px;
 }
 .logo-accent{
     color: var(--accent-color);
@@ -45,7 +56,7 @@
 }
 .navigation-link:hover,
 .navigation-link:focus{
-    font-size: var(--accent-color);
+    color: var(--accent-color);
 
 }
 
@@ -60,12 +71,18 @@
 }
 .navigation-adres{
     display: inline;
+    padding: 200px;
 }
 
 .order{
     background-color: var(--footer-color);
     height: 600px ;
-    width: 100%;
+    width: 1600px;
+    margin: auto;
+    padding: 0;
+    padding-top: 200px;
+    /* padding-right: 450px; */
+    /* padding-left: 450px;  */
 }
 .hero-title{
     font-style: var(--main-font);
@@ -73,8 +90,13 @@
     font-size: 44px;
     text-transform: uppercase;
     text-align: center;
-    align-items: center;
+    width: 700px;
+
+    /* align-items: center; */
     font-weight: 900;
+    /* padding-right: 450px; */
+    padding-left: 450px; 
+    
 
 }
 .hero-btn{
@@ -85,9 +107,11 @@
     width: 400px;
     height: 50px;
     text-align: center;
-    align-items: center;
+
     font-size: 16px;
     font-weight: 700;
+    margin-left: 700px;
+
 
 }
 
@@ -113,7 +137,7 @@
     text-decoration: none;
     list-style-type: none;
     color: var(--secondary-color);
-    
+    /* padding: 0 15px; */
 }
  .opis-title{
     font-size: var(--text-size);
@@ -127,17 +151,20 @@
 
 .what{
     width: 1170px;
-    
+    margin-left: 215px;
+
 }
 .what-title{
     font-size: var(--header-size);
     color: var(--primary-color);
     text-align: center;
-    
+
+
+    /* padding-left: 215px; */
 }
 .what-box{
     display: flex;
-    margin: 0 215px;
+    /* margin: 0 215px; */
 }
 .what-list{
     text-decoration: none;
@@ -148,16 +175,23 @@
 .command{
     
     font-size: 16px;
-    width: 1600px;
+    width: 1170px;
+    margin-left: 215px;
+    /* padding-left: 215px; */
 }
 .command-person{
     display: flex;
     text-align: center;
     align-items: center;
+    width: 1170px;
+    /* padding-left: 215px; */
+
+
 }
 .command-person-list{
     text-decoration: none;
     list-style-type: none;
+    padding: 0 15px;
 }
 .fio{
 
@@ -171,14 +205,25 @@
     height: 252px;
     width: 1600px;
     background-color: var(--footer-color);
-    padding: 60px 215px;
+    /* padding: 60px 215px; */
+    font: inherit;
+    padding-top: 60px;
 }
 .footer-logo{
     color: var(--common-white);
+    
+}
+.footer>.logo{
+    /* padding-left: 215px; */
+    padding: 0 215px;
 }
 .footer-adres {
     display: inline;
     list-style-type: none;
+    
+}
+.footer-item{
+    padding: 0 215px;
 }
 .footer-text{
     color: var(--common-white);
@@ -186,17 +231,22 @@
 }
 
 .portfolio{
-    width: 1170px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    
+    /* display: flex; */
+    /* align-items: center;
+    text-align: center; */
 }
 .portfolio-menu{
+    width: 1170px;
     list-style-type: none;
     display: flex;
+    align-items: center;
+    text-align: center;    
 }
 .portfolio-item{
 text-decoration: none;
+
+
 }
 .portfolio-link{
     background-color: var(--added-white);
