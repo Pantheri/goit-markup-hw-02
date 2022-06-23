@@ -13,22 +13,22 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    cursor:pointer;
 
 } 
-address{
+/* address{
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-}
+} */
 .header{
     width: 1170px;
     margin: 0 ;
     display: flex;
     height: 80px;
-    /* line-height: 25px; */
     font-family: var(--main-font);
     align-items: center;
     padding: 0 215px; 
@@ -44,7 +44,7 @@ address{
     font-family: 'Raleway', sans-serif;
     font-size: var(--logo-size);
     text-decoration: none;
-    line-height: 31px;
+
 }
 .logo-accent{
     color: var(--accent-color);
@@ -112,8 +112,11 @@ address{
     font-weight: 700;
     margin-left: 700px;
 
-
 }
+/* .hero-btn:hover,
+.hero-btn:active{
+    background-color: var(--accent-color);
+} */
 
 .visually-hidden {
     position: absolute;
@@ -198,7 +201,7 @@ address{
     font-weight: 700;
 }
 .job{
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 .footer{
@@ -223,11 +226,17 @@ address{
     
 }
 .footer-item{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
     padding: 0 215px;
 }
 .footer-text{
     color: var(--common-white);
-    font-style: normal;
+    /* font-style: normal; */
 }
 
 .portfolio{
@@ -285,5 +294,5 @@ text-decoration: none;
     font-weight: 700;
 }
  .primer-text{
-    font-weight: 400;
+    /* font-weight: 400; */
  }
