@@ -13,17 +13,9 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    cursor:pointer;
 
 } 
-/* address{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-} */
+
 .header{
     width: 1170px;
     margin: 0 ;
@@ -33,17 +25,20 @@ body{
     align-items: center;
     padding: 0 215px; 
 
-
 }
 .navigation{
-    /* float: left; */
     display: flex;
-    /* margin-left: auto; */
+    font-weight: 400;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .logo{
     font-family: 'Raleway', sans-serif;
     font-size: var(--logo-size);
     text-decoration: none;
+    color: var(--primary-color);
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 
 }
 .logo-accent{
@@ -53,6 +48,7 @@ body{
     color: var(--secondary-color);
     font-size: var(--text-size);
     text-decoration: none;
+    cursor: pointer;
 }
 .navigation-link:hover,
 .navigation-link:focus{
@@ -92,12 +88,10 @@ body{
     text-align: center;
     width: 700px;
 
-    /* align-items: center; */
     font-weight: 900;
-    /* padding-right: 450px; */
     padding-left: 450px; 
-    
-
+    line-height: 1.36;
+    letter-spacing: 0.06em;
 }
 .hero-btn{
     color: var(--common-white);
@@ -107,10 +101,10 @@ body{
     width: 400px;
     height: 50px;
     text-align: center;
-
     font-size: 16px;
     font-weight: 700;
     margin-left: 700px;
+    letter-spacing: 0.06em;
 
 }
 /* .hero-btn:hover,
@@ -147,9 +141,14 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     color: var(--primary-color);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
  }
  .opis-text{
     font-size: var(--text-size);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-weight: 400;
  }
 
 .what{
@@ -161,9 +160,8 @@ body{
     font-size: var(--header-size);
     color: var(--primary-color);
     text-align: center;
-
-
-    /* padding-left: 215px; */
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .what-box{
     display: flex;
@@ -198,10 +196,17 @@ body{
 }
 .fio{
 
-    font-weight: 700;
+    font-weight: 500;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .job{
-    /* font-weight: 400; */
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .footer{
@@ -223,7 +228,10 @@ body{
 .footer-adres {
     display: inline;
     list-style-type: none;
-    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 .footer-item{
     margin: 0;
@@ -235,9 +243,15 @@ body{
     padding: 0 215px;
 }
 .footer-text{
-    color: var(--common-white);
-    /* font-style: normal; */
+    color: rgba(255, 255, 255, 0.6);
+
+
 }
+.footer-text-adres{
+    color: var(--common-white);
+
+}
+
 
 .portfolio{
     
@@ -250,7 +264,13 @@ body{
     list-style-type: none;
     display: flex;
     align-items: center;
-    text-align: center;    
+    text-align: center; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.636px;
+    letter-spacing: 0.03em;
+    color: #212121;
+   
 }
 .portfolio-item{
 text-decoration: none;
@@ -259,7 +279,7 @@ text-decoration: none;
 }
 .portfolio-link{
     background-color: var(--added-white);
-    color: var(--common-white);
+    color: var(--primary-color);
     border: none;
     border-radius: 4px;
     width: 100%;
@@ -268,12 +288,14 @@ text-decoration: none;
     align-items: center;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
 
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
     background-color: var(--accent-color);
-
+    color: var(--common-white);
+    cursor: pointer;
 }
 .primer{
     display: flex;
@@ -292,7 +314,16 @@ text-decoration: none;
 }
 .primer-title{
     font-weight: 700;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;  
+    color: var(--primary-color);
 }
  .primer-text{
-    /* font-weight: 400; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
  }
