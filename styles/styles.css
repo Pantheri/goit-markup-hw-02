@@ -48,7 +48,13 @@ body{
     color: var(--secondary-color);
     font-size: var(--text-size);
     text-decoration: none;
-    cursor: pointer;
+    /* cursor: pointer; */
+}
+.navigation-link-accent{
+    color: var(--accent-color);
+    font-size: var(--text-size);
+    text-decoration: none;
+    /* cursor: pointer; */
 }
 .navigation-link:hover,
 .navigation-link:focus{
@@ -98,7 +104,7 @@ body{
     background-color: var(--accent-color);
     border: none;
     border-radius: 4px;
-    width: 400px;
+    /* width: 400px; */
     height: 50px;
     text-align: center;
     font-size: 16px;
@@ -156,7 +162,7 @@ body{
     margin-left: 215px;
 
 }
-.what-title{
+.title{
     font-size: var(--header-size);
     color: var(--primary-color);
     text-align: center;
@@ -173,8 +179,7 @@ body{
     padding: 0 15px;
 }
 
-.command{
-    
+.command{    
     font-size: 16px;
     width: 1170px;
     margin-left: 215px;
@@ -187,7 +192,6 @@ body{
     width: 1170px;
     /* padding-left: 215px; */
 
-
 }
 .command-person-list{
     text-decoration: none;
@@ -195,7 +199,6 @@ body{
     padding: 0 15px;
 }
 .fio{
-
     font-weight: 500;
     line-height: 1.19;
     text-align: center;
@@ -245,7 +248,6 @@ body{
 .footer-text{
     color: rgba(255, 255, 255, 0.6);
 
-
 }
 .footer-text-adres{
     color: var(--common-white);
@@ -253,12 +255,9 @@ body{
 }
 
 
-.portfolio{
-    
-    /* display: flex; */
-    /* align-items: center;
-    text-align: center; */
-}
+/* .portfolio{
+
+} */
 .portfolio-menu{
     width: 1170px;
     list-style-type: none;
@@ -287,12 +286,13 @@ text-decoration: none;
     text-align: center;
     align-items: center;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     cursor: pointer;
 
 }
 .portfolio-link:hover,
-.portfolio-link:focus {
+.portfolio-link:focus,
+.portfolio-link-active {
     background-color: var(--accent-color);
     color: var(--common-white);
     cursor: pointer;
@@ -309,19 +309,19 @@ text-decoration: none;
 .primer-item{
     text-decoration: none;
 }
-.primer-img{
+/* .primer-img{
 
-}
+} */
 .primer-title{
-    font-weight: 700;
-    font-weight: 700;
+    /* font-weight: 700;
+    font-weight: 700; */
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;  
     color: var(--primary-color);
 }
  .primer-text{
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
