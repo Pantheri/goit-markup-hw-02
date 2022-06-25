@@ -51,7 +51,7 @@ body{
     color: var(--accent-color);
 }
 .navigation-link {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     /* font-size: var(--text-size); */
     text-decoration: none;
     /* cursor: pointer; */
@@ -239,8 +239,8 @@ body{
 .footer-adres {
     display: inline;
     list-style-type: none;
-    font-weight: 400;
-    font-size: 14px;
+    /* font-weight: 400; */
+    /* font-size: 14px; */
     line-height: 1.7;
     /* letter-spacing: 0.03em; */
 }
