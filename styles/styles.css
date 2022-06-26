@@ -53,6 +53,7 @@ body {
 .navigation-link {
     color: var(--primary-color);
     text-decoration: none;
+    letter-spacing: 0.02em;
 
 }
 
