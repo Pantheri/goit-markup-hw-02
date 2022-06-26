@@ -53,7 +53,7 @@ body {
 .navigation-link {
     color: var(--primary-color);
     text-decoration: none;
-    letter-spacing: 0.02em;
+
 
 }
 
@@ -76,6 +76,7 @@ body {
 .navigation-item {
     display: inline;
     font-weight: 500;
+        letter-spacing: 0.02em;
 }
 
 .navigation-adres {
