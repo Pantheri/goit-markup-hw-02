@@ -54,6 +54,10 @@ body {
     color: var(--primary-color);
     text-decoration: none;
 
+}
+.navigation-link2 {
+    color: var(--secondary-color);
+    text-decoration: none;
 
 }
 
@@ -63,7 +67,10 @@ body {
 }
 
 .navigation-link:hover,
-.navigation-link:focus {
+.navigation-link:focus,
+.navigation-link2:hover,
+.navigation-link2:focus
+ {
     color: var(--accent-color);
 
 }
